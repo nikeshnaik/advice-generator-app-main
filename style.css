@@ -1,0 +1,59 @@
+:root {
+    --primary-Light-Cyan: hsl(193, 38%, 86%);
+    --primary-Neon-Green: hsl(150, 100%, 66%);
+    --neutral-Grayish-Blue: hsl(217, 19%, 38%);
+    --neurtal-Dark-Grayish-Blue: hsl(217, 19%, 24%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Karla", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--neurtal-Dark-Grayish-Blue);
+    height: 100vh;
+}
+
+.container {
+    width: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--neutral-Grayish-Blue);
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 5%;
+    box-shadow: 1rem 1rem 1rem transparent;
+    color: white;
+    transform: scale(1);
+}
+
+h2 {
+    color: var(--primary-Neon-Green);
+    padding-bottom: 2rem;
+}
+
+p {
+    white-space: pre;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
