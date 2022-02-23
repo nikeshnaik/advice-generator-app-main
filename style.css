@@ -3,6 +3,7 @@
     --primary-Neon-Green: hsl(150, 100%, 66%);
     --neutral-Grayish-Blue: hsl(217, 19%, 38%);
     --neurtal-Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --advice_container_widht: 35rem;
 }
 
 * {
@@ -21,37 +22,92 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    align-content: space-between;
     background-color: var(--neurtal-Dark-Grayish-Blue);
     height: 100vh;
 }
 
 .container {
-    width: min-content;
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: var(--neutral-Grayish-Blue);
     flex-direction: column;
     padding: 2rem;
-    border-radius: 5%;
+    border-radius: 2rem;
     box-shadow: 1rem 1rem 1rem transparent;
-    color: white;
-    transform: scale(1);
+}
+
+.advice_container {
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
     color: var(--primary-Neon-Green);
     padding-bottom: 2rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 p {
-    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
     text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: var(--primary-Light-Cyan);
+}
+
+img {
+    padding-top: 2rem;
+    width: inherit;
+    height: 2rem;
+    padding-bottom: 3.5rem;
+}
+
+.dice-bg {
+    width: 5rem;
+    background-color: var(--primary-Neon-Green);
+    border-radius: 50%;
+    height: 5rem;
+    position: relative;
+    top: -3rem;
+    left: calc(50% - 2.5rem);
+    opacity: 0.7;
+}
+
+#dice {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+}
+
+#random_btn {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.dice-bg:hover {
+    filter: brightness(100%);
+    opacity: 2;
 }
 
 .attribution {
     font-size: 1rem;
     text-align: center;
+    color: white;
+    text-decoration: non;
 }
 
 .attribution a {
