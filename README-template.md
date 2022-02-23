@@ -33,8 +33,8 @@ Users should be able to: Randomly generate Advice after clicking on dice.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/vanilla-css-advice-generator-bgfQS0o0E](https://www.frontendmentor.io/solutions/vanilla-css-advice-generator-bgfQS0o0E)
+- Live Site URL: [https://keen-yalow-a7de32.netlify.app/](https://keen-yalow-a7de32.netlify.app/)
 
 ## My process
 
